@@ -11,6 +11,7 @@ const Home = () => {
   const handleClick = () => {
     if (!disabled) {
       setCount(prev => prev + 1) //按下按鈕時讓數字 +1
+      // setCount(prev => (prev === 10 ? -10 :prev+1))
     }
   }
 
@@ -31,12 +32,22 @@ const Home = () => {
 
 
   return (
-    <div className='container flex ju bg-blue-100 p-4'> 
-      <ButtonGroup orientation="vertical" aria-label="Vertical button group">
-        <Button onClick={handleClick} className="text-lg font-bold mb-4">CLICK:{count}</Button>
-        <Button onClick={handleClear} className="text-lg font-bold mb-4">CLEAR</Button>
-        <Button onClick={handleDisable} className="text-lg font-bold mb-4">{disabled ? 'ABLE' : 'DISABLE'}</Button>
+    <div className='flex justify-center items-center bg-slate-300 h-[50vh] '> 
+      <ButtonGroup size="large" color="secondary" sx={{ backgroundColor: '#f0f0f0'}} orientation="vertical" aria-label="Vertical button group" className='w-1/6'>
+        <Button onClick={handleClick} className="text-lg font-bold mb-4" style={{
+          backgroundColor: disabled ? '#e0e0e0' : '#f0f0f0',
+          color: disabled ? '#888' : '#9c27b0'
+        }} >CLICK:{count}</Button>
+        <Button onClick={handleClear} className="text-lg font-bold mb-4" style={{
+          backgroundColor: disabled ? '#e0e0e0' : '#f0f0f0',
+          color: disabled ? '#888' : '#9c27b0'
+        }} >CLEAR</Button>
+        <Button onClick={handleDisable} className="text-lg font-bold mb-4">{disabled ? 'able' : 'disable'}</Button>
       </ButtonGroup>
+
+      <div className="flex justify-center items-center bg-slate-600 h-[50vh]">
+        <WeatherChart />
+      </div>
     </div>
   )
 }
