@@ -9,3 +9,8 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>
 )
 
+// import { createRoot } from 'react-dom/client'
+
+// createRoot(document.getElementById('root')).render(
+//   "Test Render"
+// )

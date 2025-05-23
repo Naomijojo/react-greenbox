@@ -31,7 +31,7 @@ const Home = () => {
 
 
   return (
-    <div className='container bg-blue-100 p-4'> 
+    <div className='container flex ju bg-blue-100 p-4'> 
       <ButtonGroup orientation="vertical" aria-label="Vertical button group">
         <Button onClick={handleClick} className="text-lg font-bold mb-4">CLICK:{count}</Button>
         <Button onClick={handleClear} className="text-lg font-bold mb-4">CLEAR</Button>
