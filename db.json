@@ -1,0 +1,47 @@
+{
+  "products": [
+    { 
+      "id": 1, 
+      "name": "棗子", 
+      "price": 100, 
+      "image": "https://www.uho.com.tw/userfiles/sm/sm1200675_images_A1/2025012064083165.jpg" 
+    },
+    { "id": 2, 
+      "name": "草莓", 
+      "price": 200, "image":
+      "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=1015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    },
+    { "id": 3, 
+      "name": "哈密瓜", 
+      "price": 300, 
+      "image": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    },
+    { "id": 4, 
+      "name": "牛奶果", 
+      "price": 400, 
+      "image": "https://taiwan-bonbon-farmer.com/wp-content/uploads/2023/03/%E7%89%9B%E5%A5%B6%E6%9E%9C900.jpg" 
+    },
+    { "id": 5, 
+      "name": "小番茄", 
+      "price": 500, 
+      "image": "https://images.unsplash.com/photo-1749776016433-229308a6b262?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    },
+    { "id": 6, "name": "蓮霧", "price": 600, "image": "https://www.newsmarket.com.tw/files/2024/01/1%E2%94%80%E9%BB%91%E7%8F%8D%E7%8F%A0%E8%93%AE%E9%9C%A7%EF%BC%88%E7%85%A7%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E6%9E%8B%E5%AF%AE%E8%BE%B2%E6%9C%83%E8%87%89%E6%9B%B8%EF%BC%89.jpg" 
+  },
+    { "id": 7, 
+      "name": "百香果", 
+      "price": 700, 
+      "image": "https://i.epochtimes.com/assets/uploads/2020/07/shutterstock_674014366-600x400.jpg" 
+    },
+    { "id": 8, 
+      "name": "黃金果", 
+      "price": 800, 
+      "image": "https://blog.life.com.tw/album/48/954041.jpeg?t=1562211357" 
+    },
+    { "id": 9, 
+      "name": "芭樂", 
+      "price": 800, 
+      "image": "https://fruitbox.blob.core.windows.net/products/Images/20211208161519.webp" 
+    }
+  ]
+}
